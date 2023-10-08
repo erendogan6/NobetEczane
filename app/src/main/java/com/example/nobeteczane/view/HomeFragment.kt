@@ -62,16 +62,8 @@ class HomeFragment : Fragment() {
                     val telefonintent = Intent(Intent.ACTION_DIAL)
                     val uri = Uri.parse("tel:$bilgi")
                     telefonintent.data = uri
+                    startActivity(telefonintent)
 
-                    if (telefonintent.resolveActivity(requireContext().packageManager) != null) {
-                        startActivity(telefonintent)
-                    } else {
-                        Toast.makeText(
-                            requireContext(),
-                            "Telefon uygulaması bulunamadı.",
-                            Toast.LENGTH_SHORT
-                        ).show()
-                    }
                 }
 
             }
