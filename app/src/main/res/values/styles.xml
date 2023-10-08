@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomNavigationViewTextAppearanceActive">
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="BottomNavigationViewTextAppearanceInactive">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

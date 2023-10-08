@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NöbetEczane</string>
+    <string name="title_home">Home</string>
+    <string name="liste">Liste</string>
+    <string name="harita">Harita</string>
+    <string name="eczane">Eczane</string>
+    <string name="l_e">İlçe</string>
+    <string name="adres">Adres</string>
+    <string name="konum_tarifi">Konum Tarifi</string>
+    <string name="telefon_numaras">Telefon Numarası</string>
+</resources>
